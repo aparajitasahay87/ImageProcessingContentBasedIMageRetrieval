@@ -1,0 +1,13 @@
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\bin\Debug\WpfApplication4.exe.config
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\bin\Debug\WpfApplication4.exe
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\bin\Debug\WpfApplication4.pdb
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.csprojResolveAssemblyReference.cache
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\MainWindow.baml
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\MainWindow.g.cs
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\App.g.cs
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.cache
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.g.resources
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.Properties.Resources.resources
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.csproj.GenerateResource.Cache
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.exe
+C:\Users\SOMES\Desktop\AparajitaProject\Multimedia\Assignment1 Folder\source\WpfApplication4\obj\Debug\WpfApplication4.pdb

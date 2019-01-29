@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"  />
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0" ScrollViewer.VerticalScrollBarVisibility="Visible"
+              ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ScrollViewer Height="400" VerticalScrollBarVisibility="Auto">
+                <ListBox Name="disp" ItemsSource="{Binding imagelist}" >
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Columns="5"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="imageselection" Click="imageselected_click"> 
+                                    <Image Name="final" Source="{Binding image}" Width="80" Height="80" Stretch="Fill">
+                                    </Image>
+                                </Button> 
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Previouspage" Height="50" Width="50" Content="Previous" Click="previousPage_Click" IsEnabled="False"/>
+                <Button Name="Nextpage" Height="50" Width="50" Content="Next" Click="nextPage_click" IsEnabled="True"/>
+                <Label Name="pageNumber"/> 
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0">
+            <StackPanel>
+                <Image Name="selectImage" Width="200" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+
+
+   <RadioButton Name="IntensityMethod" HorizontalAlignment="Stretch" Height="100" Width="100" FontSize="15" HorizontalContentAlignment="Stretch" Content="Intensity"  Checked="intensityMethod_click" />
+   <RadioButton Name="ColorCodeMethod" Height="100" Width="100" HorizontalAlignment="Stretch" FontSize="15" HorizontalContentAlignment="Stretch" Content="ColorCode"  Checked="colorCodeMethod_click" />
+                <Button Name="Reset" Content="Reset" Click="reset_click"/>
+
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>
